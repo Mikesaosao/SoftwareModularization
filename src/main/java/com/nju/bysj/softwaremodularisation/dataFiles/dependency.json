@@ -1,0 +1,688 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "dependency-sdsm",
+  "variables" : [ "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/.mvn/wrapper/MavenWrapperDownloader.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/model/Person.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/model/package-info.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/Owner.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/Pet.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/PetController.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/PetType.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/Visit.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/system/CrashController.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/vet/Specialty.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/vet/Vet.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/vet/VetController.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/main/java/org/springframework/samples/petclinic/vet/Vets.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/PetClinicIntegrationTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java", "/Users/mike/Desktop/系统模块化方法/实验数据/spring-petclinic-main/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java" ],
+  "cells" : [ {
+    "src" : 6,
+    "dest" : 4,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 2,
+    "values" : {
+      "Call" : 6.0
+    }
+  }, {
+    "src" : 12,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 20,
+    "values" : {
+      "Call" : 3.0,
+      "Return" : 2.0,
+      "Create" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 12,
+    "dest" : 8,
+    "values" : {
+      "Call" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 13,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 21,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 22,
+    "values" : {
+      "Call" : 2.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 14,
+    "values" : {
+      "Call" : 1.0,
+      "Return" : 1.0,
+      "Create" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 8,
+    "values" : {
+      "Call" : 6.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 29,
+    "dest" : 15,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 4,
+    "values" : {
+      "Call" : 3.0
+    }
+  }, {
+    "src" : 29,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 19,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 6,
+    "values" : {
+      "Call" : 3.0,
+      "Return" : 1.0,
+      "Create" : 3.0,
+      "Use" : 6.0,
+      "Parameter" : 9.0,
+      "Contain" : 3.0
+    }
+  }, {
+    "src" : 29,
+    "dest" : 6,
+    "values" : {
+      "Call" : 3.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 2,
+    "values" : {
+      "Call" : 3.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 9,
+    "values" : {
+      "Call" : 1.0,
+      "Return" : 3.0,
+      "Use" : 2.0,
+      "Parameter" : 3.0,
+      "Contain" : 3.0
+    }
+  }, {
+    "src" : 24,
+    "dest" : 22,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 20,
+    "dest" : 4,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 6,
+    "values" : {
+      "Call" : 6.0,
+      "Return" : 1.0,
+      "Parameter" : 4.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 23,
+    "values" : {
+      "Call" : 4.0,
+      "Return" : 1.0,
+      "Create" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 20,
+    "dest" : 19,
+    "values" : {
+      "Use" : 5.0,
+      "Parameter" : 6.0
+    }
+  }, {
+    "src" : 19,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 29,
+    "dest" : 9,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 29,
+    "dest" : 8,
+    "values" : {
+      "Call" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 9,
+    "values" : {
+      "Call" : 2.0,
+      "Return" : 1.0,
+      "Create" : 2.0,
+      "Parameter" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 8,
+    "values" : {
+      "Call" : 5.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 28,
+    "dest" : 11,
+    "values" : {
+      "Call" : 3.0,
+      "Create" : 3.0,
+      "Use" : 4.0,
+      "Parameter" : 3.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 28,
+    "dest" : 12,
+    "values" : {
+      "Call" : 4.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 34,
+    "dest" : 20,
+    "values" : {
+      "Cast" : 1.0,
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 23,
+    "dest" : 20,
+    "values" : {
+      "Use" : 2.0,
+      "Parameter" : 2.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 6,
+    "values" : {
+      "Return" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 20,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Use" : 4.0,
+      "Parameter" : 3.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 25,
+    "dest" : 4,
+    "values" : {
+      "Call" : 3.0,
+      "Create" : 1.0,
+      "Use" : 6.0,
+      "Parameter" : 6.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 34,
+    "dest" : 2,
+    "values" : {
+      "Call" : 3.0
+    }
+  }, {
+    "src" : 34,
+    "dest" : 4,
+    "values" : {
+      "Call" : 6.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 9,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 12,
+    "dest" : 11,
+    "values" : {
+      "Return" : 1.0,
+      "Use" : 3.0,
+      "Parameter" : 4.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 14,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Use" : 5.0,
+      "Parameter" : 3.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 14,
+    "values" : {
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 11,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 9.0,
+      "Parameter" : 6.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 11,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 20,
+    "values" : {
+      "Use" : 6.0,
+      "Parameter" : 6.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 22,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 28,
+    "dest" : 8,
+    "values" : {
+      "Call" : 2.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 4,
+    "values" : {
+      "Call" : 4.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 2,
+    "values" : {
+      "Call" : 3.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 6,
+    "values" : {
+      "Call" : 2.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 9,
+    "values" : {
+      "Call" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 8,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 28,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 31,
+    "values" : {
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 8,
+    "values" : {
+      "Call" : 2.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 2,
+    "values" : {
+      "Call" : 3.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 3,
+    "values" : {
+      "Call" : 6.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 4,
+    "values" : {
+      "Call" : 7.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 6,
+    "values" : {
+      "Call" : 3.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 22,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 6,
+    "values" : {
+      "Call" : 17.0,
+      "Import" : 1.0,
+      "Use" : 10.0,
+      "Create" : 1.0,
+      "Parameter" : 6.0,
+      "Contain" : 7.0
+    }
+  }, {
+    "src" : 13,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 11,
+    "values" : {
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 13,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 8,
+    "values" : {
+      "Call" : 21.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 9,
+    "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Use" : 2.0,
+      "Contain" : 4.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 14,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 11,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 10,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 2,
+    "values" : {
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 32,
+    "dest" : 17,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 4,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 27,
+    "dest" : 12,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 14,
+    "values" : {
+      "Use" : 2.0,
+      "Parameter" : 3.0
+    }
+  }, {
+    "src" : 31,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 13,
+    "dest" : 9,
+    "values" : {
+      "Cast" : 1.0,
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 6,
+    "values" : {
+      "Call" : 8.0,
+      "Return" : 1.0,
+      "Create" : 2.0,
+      "Use" : 9.0,
+      "Parameter" : 9.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 7,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 8,
+    "values" : {
+      "Call" : 6.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 14,
+    "values" : {
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 9,
+    "values" : {
+      "Call" : 5.0,
+      "Create" : 1.0,
+      "Use" : 3.0,
+      "Parameter" : 3.0,
+      "Contain" : 2.0
+    }
+  } ]
+}
